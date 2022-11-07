@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/anhmenu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_198sdp"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="#292428"
+        android:textStyle="bold"
+        android:text="Đăng Bài"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="#292428"
+        android:textStyle="bold"
+        android:text="Thông Tin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="#292428"
+        android:textStyle="bold"
+        android:text="Đăng Xuất"/>
+
+</LinearLayout>
+

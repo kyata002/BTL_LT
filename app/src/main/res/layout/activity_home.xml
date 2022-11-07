@@ -29,6 +29,10 @@
             android:layout_gravity="center"
             android:layout_margin="@dimen/_8sdp"/>
     </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RV_ListTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 
 </LinearLayout>

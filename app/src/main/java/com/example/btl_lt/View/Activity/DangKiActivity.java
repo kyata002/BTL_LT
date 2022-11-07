@@ -1,4 +1,4 @@
-package com.example.btl_lt;
+package com.example.btl_lt.View.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.widget.ImageView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.btl_lt.R;
 
 public class DangKiActivity extends AppCompatActivity {
     ImageView btnBackDK;

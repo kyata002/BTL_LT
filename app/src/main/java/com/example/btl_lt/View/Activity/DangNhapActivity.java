@@ -1,13 +1,13 @@
-package com.example.btl_lt;
+package com.example.btl_lt.View.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Window;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.btl_lt.R;
 
 public class DangNhapActivity extends AppCompatActivity {
     EditText sTenDN,sMatk;
