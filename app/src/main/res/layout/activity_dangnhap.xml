@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DangNhapActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:textSize="@dimen/_30sdp"
+        android:text="Đăng Nhập"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_200sdp"
+        android:textStyle="bold"
+        android:textColor="#BD46B1"/>
+
+    <EditText
+        android:id="@+id/sTenDN"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_40sdp"
+        android:hint="Đăng Nhập"
+        android:textColorHint="#79000000" />
+
+    <EditText
+        android:id="@+id/sMatK"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_40sdp"
+        android:hint="Mật Khẩu"
+        android:textColorHint="#79000000"
+        />
+
+    <TextView
+        android:id="@+id/btnDangN"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/bg_button"
+        android:backgroundTint="#BD46B1"
+        android:gravity="center"
+        android:text="Đăng nhập"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:text="Bạn đã có tài khoản chưa?  "/>
+        <TextView
+            android:id="@+id/btnDangK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:text="Dăng kí"
+            android:textColor="#1A7ECD"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
